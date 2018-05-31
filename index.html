@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/reset.css">
+  <link rel="stylesheet" href="./assets/style.css">
+  <title>Giphy</title>
+</head>
+
+<body>
+
+  <div class="container-fluid mw-100">
+    <header class="row mw-100 d-flex justify-content-center m-3">
+      Your Favorite Gifs
+    </header>
+
+    <div class="row d-flex justify-content-center">
+      <div class="row d-flex justify-content-center col-1 mt-3">
+        <input type="text" class="form-control" id="themeInput" placeholder="Input Theme Here..." />
+      </div>
+    </div>
+
+    <div class="row d-flex justify-content-center">
+      <div class="row d-flex justify-content-center col-1 mt-3 mb-3">
+        <button type="button" class="btn" id="addThemeButton">
+          Add Theme
+        </button>
+      </div>
+    </div>
+
+
+    <div class="row mw-100 m-0" id="themeButtons">
+
+    </div>
+  </div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js'></script>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script src='./assets/giphy.js'></script>
+</body>
+
+</html>
