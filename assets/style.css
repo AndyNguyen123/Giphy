@@ -2,7 +2,16 @@ header {
   font-size: 40px;
   color: #75A48B;
 }
-#addThemeButton {
-  color:#42282E;
-  background-color: #D9CFB0;
+#addThemeBtn {
+  color: white;
+  background-color: #42282E;
+}
+.themeBtn{
+  color: white;
+  background-color: #75A48B;
+}
+.images{
+  max-width: 100%;
+  height: auto;
+  border: 1px solid  #42282E;
 }
